@@ -91,6 +91,7 @@ class QuizApp extends Component {
   }
 
   nextStep() {
+    document.querySelector('.question:first-child').style.pointerEvents = '';
     document.querySelector('.correct-modal').classList.remove('modal-enter');
     document.querySelector('.bonus').classList.remove('show');
     const { questions, userAnswers, step, score } = this.state;

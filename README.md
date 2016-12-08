@@ -7,8 +7,8 @@ Getting Started
 ---------------
 
 ```shell
-$ git clone _repo_
-$ cd react-quiz
+$ git clone https://github.com/sujameslin/react-movie-quiz-app
+$ cd react-movie-quiz-app
 $ npm install
 $ npm start
 ```
