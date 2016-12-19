@@ -10,7 +10,9 @@ const Quiz = ({ step, questions, totalQuestions, score, handleAnswerClick }) => 
           <div className="question-number">{step}</div>
           <div className="description">of<span className="total-question-number">{totalQuestions}</span></div>
         </div>
-        <h1>Disney Movie Quiz</h1>
+        <div className="quiz-text">
+          <h1 className="title">CAN YOU MATCH THE QUOTE TO THE <br/> DISNEY MOVIE?</h1>
+        </div>
         <div className="score-container">
           <h2>Score</h2>
           <div className="score">{score}</div>
